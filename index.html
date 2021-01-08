@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '186906461');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+  <!--<link rel="stylesheet" href="css/icon-font.css">-->
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="graphic/logo.png">
+
+  <title>Dawid Grudziecki | Portfolio</title>
+</head>
+
+<body>
+
+  <!-- START OF NAVIGATION -->
+
+  <div class="navigation">
+    <!-- HAMBURGER NAV -->
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+      <!-- <div class="icon nav-icon-1">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div> -->
+    </label>
+
+    <div class="navigation__background">&nbsp;</div>
+
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="#section-jumbotron" class="navigation__link"
+            onclick="document.querySelector('.navigation__checkbox').checked=false"><span>1. </span>Start</a>
+        </li>
+        <li class="navigation__item"><a href="#section-projects" class="navigation__link"
+            onclick="document.querySelector('.navigation__checkbox').checked=false"><span>2. </span>Projects</a>
+        </li>
+        <li class="navigation__item"><a href="#section-stories" class="navigation__link"
+            onclick="document.querySelector('.navigation__checkbox').checked=false"><span>3. </span>Stories</a>
+        </li>
+        <li class="navigation__item"><a href="#section-contact" class="navigation__link"
+            onclick="document.querySelector('.navigation__checkbox').checked=false"><span>4. </span>Contact</a>
+        </li>
+        <li class="navigation__item"><a href="#section-footer" class="navigation__link"
+            onclick="document.querySelector('.navigation__checkbox').checked=false"><span>5. </span>Footer</a></li>
+      </ul>
+    </nav>
+
+    <!-- MAIN NAV -->
+    <nav class="navigation__navbar">
+      <ul class="navigation__list--main">
+        <div class="header__logo-box">
+          <img src="graphic/logo.png" alt="Logo" class="header__logo">
+        </div>
+        <li class="navigation__item--main"><a href="#section-jumbotron" class="navigation__link--main">Start</a>
+        </li>
+        <li class="navigation__item--main"><a href="#section-projects" class="navigation__link--main">Projects</a>
+        </li>
+        <li class="navigation__item--main"><a href="graphic/Dawid Grudziecki.pdf" download="Dawid Grudziecki"
+            class="navigation__link--main">Check CV</a></li>
+        <li class="navigation__item--main"><a href="#section-stories" class="navigation__link--main">Stories</a></li>
+        <li class="navigation__item--main"><a href="#section-contact" class="navigation__link--main">Contact</a></li>
+        <li class="navigation__item--main"><a href="#section-footer" class="navigation__link--main">Footer</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- END OF NAVIGATION -->
+
+  <!-- START OF HEADER -->
+
+  <header class="header" id="section-jumbotron">
+    <div class="bg-video">
+      <video class="bg-video__content" autoplay muted loop>
+        <source src="graphic/video.mp4" type="video/mp4">
+        Your browser is not supported!
+      </video>
+    </div>
+
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary--main">Dawid Grudziecki</span>
+        <span class="heading-primary--sub">Junior Front-End Developer</span>
+      </h1>
+      <a href="#section-projects" class="btn btn--blue btn--animated btn--parallelogram btn--header">Check my
+        projects</a>
+    </div>
+  </header>
+  <div class="u-margin-bottom-big"></div>
+
+  <!-- END OF HEADER -->
+
+  <main>
+
+    <!-- START OF CARDS -->
+
+    <section class="my-projects" id="section-projects">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">
+          My projects
+        </h2>
+      </div>
+      <div class="u-center-text u-margin-bottom-big">
+
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1">Project 1</span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                    <li>Feature 5</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Wait please!</p>
+                    <p class="card__price-value">Under Construction</p>
+                  </div>
+                  <a href="#" class="btn btn--white btn--parallelogram">Check this!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2">Project 2</span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                    <li>Feature 5</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Release Soon</p>
+                    <p class="card__price-value">Under Construction</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white btn--parallelogram">Check this!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3">Project 3</span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                    <li>Feature 5</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Be patient please</p>
+                    <p class="card__price-value">Under Construction</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white btn--parallelogram">Check this!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      </div>
+    </section>
+    <!-- END OF CARDS -->
+
+    <!-- START OF STORY -->
+
+    <section class="section-stories u-margin-top-huge" id="section-stories">
+      <div class="bg-video bg-video--opacity">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="graphic/video2.mp4" type="video/mp4">
+          <!-- <source src="img/video.webm" type="video/webm"> -->
+          Your browser is not supported!
+        </video>
+      </div>
+
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">
+          Why is front-end so amazing? <br> Because you're only limited by your imagination <br> It's a very deep ocean.
+          Swim!
+        </h2>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">
+          <div class="story">
+            <figure class="story__shape">
+              <img src="graphic/flatmate.jpg" alt="David's former flatmate" class="story__img">
+              <figcaption class="story__caption">Flatmate</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">Flatmate</h3>
+              <p>
+                "This guy is impossible. He writes code until 4 am every night because he's so determined to become a
+                front-end developer. Not being interested in this guy is a serious offense."
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="story">
+            <figure class="story__shape">
+              <img src="graphic/mummy.jpg" alt="David's Mother" class="story__img">
+              <figcaption class="story__caption">Mummy</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">Mummy</h3>
+              <p>
+                "He has an eye for the smallest detail. I never expected to have such a wonderful, talented and
+                hardworking son. He will be a great employee in any software house!"
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="story">
+            <figure class="story__shape">
+              <img src="graphic/bono.jpg" alt="Bono - rock singer" class="story__img">
+              <figcaption class="story__caption">Bono</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">Bono</h3>
+              <p>
+                "David is an animal when he comes out on stage. Singing "New Year's Day" with him was something special.
+                Invite him to the interview immediately. And give me a Spotify sub, huh?"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END OF STORY -->
+
+    <!-- START OF FORM -->
+
+    <section class="section-book u-margin-top-huge" id="section-contact">
+      <div class="row">
+        <div class="book">
+          <div class="book__form">
+            <form action="#" class="form">
+              <div class="u-margin-bottom-medium">
+                <h2 class="heading-secondary">
+                  Contact me
+                </h2>
+              </div>
+
+              <div class="form__group">
+                <input type="text" class="form__input" placeholder="Full name" id="name" required>
+                <label for="name" class="form__label">Full name</label>
+              </div>
+
+              <div class="form__group">
+                <input type="email" class="form__input" placeholder="Email address" id="email" required>
+                <label for="email" class="form__label">Email address</label>
+              </div>
+
+              <div class="form__group u-margin-bottom-medium">
+                <div class="form__radio-group">
+                  <input type="radio" class="form__radio-input" id="small" name="size">
+                  <label for="small" class="form__radio-label">
+                    <span class="form__radio-button"></span>
+                    Business
+                  </label>
+                </div>
+
+                <div class="form__radio-group">
+                  <input type="radio" class="form__radio-input" id="large" name="size">
+                  <label for="large" class="form__radio-label">
+                    <span class="form__radio-button"></span>
+                    Private
+                  </label>
+                </div>
+              </div>
+
+              <div class="form__group btn--parallelogram">
+                <button class="btn btn--blue">Contact me &rarr;</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END OF FORM -->
+
+  </main>
+
+  <!-- START OF FOOTER -->
+
+  <footer class="footer u-margin-top-big" id="section-footer">
+    <div class="flex-row--footer">
+      <div class="footer__logo-box">
+        <picture>
+          <!-- <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)">
+          <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo" src="img/logo-green-2x.png"> -->
+          <img class="footer__logo" src="graphic/logo.png" alt="logo">
+        </picture>
+      </div>
+
+      <div class="footer__social">
+
+        <div class="footer__social--linkedin">
+          <a href="https://www.linkedin.com/in/d-grudziecki/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <div class="footer__social--twitter">
+          <a href="https://twitter.com/d_grudziecki" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <div class="footer__social--facebook">
+          <a href="https://www.facebook.com/dawid.grudziecki/" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+
+        <!-- <div class="footer__social--instagram">
+          <a href="https://www.linkedin.com/in/d-grudziecki/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div> -->
+
+      </div>
+
+      <p class="footer__copyright u-center-text">
+        Built by Dawid Grudziecki although a special thanks for Jonas Schmedtmann, who inspired me by his layout and
+        thanks to his online course <a href="#" class="footer__link">Advanced CSS and Sass</a> I've learn a ton of new
+        stuff in terms of advanced CSS. <br> Copyright &copy; Dawid Grudziecki
+      </p>
+    </div>
+  </footer>
+
+  <!-- END OF FOOTER -->
+
+  <!-- START OD MODAL -->
+  <div class="popup" id="popup">
+    <div class="popup__content">
+      <div class="popup__left">
+        <img src="graphic/cow.jpg" alt="cow photo" class="popup__img">
+        <img src="graphic/cat.jpg" alt="cat photo" class="popup__img">
+      </div>
+      <div class="popup__right">
+        <a href="#section-tours" class="popup__close">&times;</a>
+        <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+        <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+        <p class="popup__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+          Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit
+          amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim enim
+          sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget
+          gravida cum sociis natoque penatibus et. Proin fermentum leo vel orci porta non pulvinar neque laoreet.
+          Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis. Faucibus
+          vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa
+          vitae tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed
+          euismod nisi porta.
+        </p>
+        <a href="#" class="btn btn--blue">Book now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- END OD MODAL -->
+
+  <script>
+    // HAMBURGER ANIMATION
+    const icons = document.querySelectorAll('.icon');
+    icons.forEach(icon => {
+      icon.addEventListener('click', (event) => {
+        icon.classList.toggle("open");
+      });
+    });
+
+    // HAMBURGER SCALE CLOSE
+    const listItems = document.querySelectorAll('.navigation__link');
+    const checkbox = document.querySelector('.navigation__checkbox');
+    console.log(listItems);
+    console.log(checkbox);
+
+    listItems.forEach.addEventListener('click', close);
+
+
+    function close() {
+      if (checkbox.checked) {
+        listItems.style = "transform: scale(90)";
+      } else {
+        listItems.style = "transform: scale(0)";
+      }
+    }
+
+
+
+  </script>
+</body>
+
+</html>
